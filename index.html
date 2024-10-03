@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="icon" href="exchange.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 style="color: black">Currency Converter</h1>
+    <form id="currency-converter">
+      <label style="color: rgb(27, 25, 25);" for="from">From</label>
+      <input type="text" name="from" id="from" placeholder="e.g. USD" required />
+      <div class="error" id="from-error"></div>
+
+      <label  for="to" style="color:rgb(27, 25, 25);">To</label>
+      <input type="text" name="to" id="to" placeholder="e.g. INR" required />
+      <div class="error" id="to-error"></div>
+
+      <label for="amount" style="color: rgb(27, 25, 25);">Amount</label>
+      <input type="number" name="amount" id="amount" placeholder="e.g. 100" required />
+
+      <button type="submit">Convert</button>
+    </form>
+    <p class="result"></p>
+    <div class="footer" style="color: rgb(12, 12, 12);">Powered by API Layer</div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+
+</body>
+
+</html>

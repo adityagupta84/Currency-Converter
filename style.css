@@ -1,0 +1,116 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #007bff, #6c757d);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .container:hover {
+  box-shadow: 0 12px 64px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+} */
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  padding: 12px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+}
+
+.result {
+  display: none;
+  /* Initially hide the result */
+  margin-top: 20px;
+  font-size: 20px;
+  color: #0f0f0f;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.result.show {
+  display: block;
+  /* Show the result when it has the 'show' class */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer {
+  background-color: rgba(43, 37, 37, 0.1);
+  padding: 10px;
+  margin-top: 9px;
+  border-radius: 8px;
+}
+
+.error {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
