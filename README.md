@@ -3,25 +3,23 @@
 
 Welcome to the **Currency Converter** app—a fast, user-friendly tool for converting currencies using real-time exchange rates. Whether you're a traveler, an international shopper, or just need a quick conversion, this app has you covered!
 
-## 🌟 Live Demo
+## 🌐 Live Demo
 
 Check out the live version here: [Currency Converter](https://adityagupta84currency-converter.netlify.app)
 
 ## ✨ Features
 
-- **Real-Time Currency Conversion**: Get up-to-date exchange rates powered by the API Layer.
-- **User-Friendly Interface**: Intuitive input fields for selecting "From" and "To" currencies, along with the amount to convert.
-- **Error Handling**: Invalid inputs, such as incorrect currency codes, are handled gracefully with error messages and guidance.
-- **Fast & Accurate Results**: Quick conversion results displayed instantly.
+- **Real-Time Conversion**: Get up-to-the-minute exchange rates, powered by API Layer.
+- **User-Friendly Interface**: Clear and intuitive input fields for "From" and "To" currencies, along with the amount.
+- **Error Handling**: Displays helpful error messages for invalid inputs like incorrect currency codes.
+- **Fast & Accurate**: Instantly get precise conversion results.
 
 ## 📖 How to Use
 
-1. **Enter the 3-letter currency code** for the currency you want to convert from (e.g., `USD` for US Dollar).
-2. **Enter the 3-letter currency code** for the currency you want to convert to (e.g., `INR` for Indian Rupee).
-3. **Input the amount** you wish to convert.
-4. **Click "Convert"** to get the real-time conversion rate and results!
-   
-   If the input is incorrect (e.g., invalid currency code), the app will display an error message and guide you to fix it.
+1. **Enter Currency Codes**: Input the 3-letter currency code for the **From** currency (e.g., USD) and the **To** currency (e.g., INR).
+2. **Enter Amount**: Type in the amount you want to convert.
+3. **Click Convert**: Hit the Convert button to see the real-time conversion result.
+4. **Error Messages**: If there's an invalid input (e.g., incorrect currency code), the app will notify you and guide you to fix the issue.
 
 ## 💻 Technologies Used
 
